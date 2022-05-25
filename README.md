@@ -1,45 +1,13 @@
-# react-picture-in-picture
-
-> React Component that allow you to easily implement the Picture-in-Picture API (https://w3c.github.io/picture-in-picture/) in your app
+# React_Picture-in-Picture_PIP
 
 [![NPM](https://img.shields.io/npm/v/react-picture-in-picture.svg)](https://www.npmjs.com/package/react-picture-in-picture) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-![alt text](demo.gif)
 
-[play with the demo](https://thomascogez.github.io/react-picture-in-picture)
+프로젝트 실행방법.
 
-## Install
+### `01. npm install`
 
-```bash
-npm install --save react-picture-in-picture
-```
-or
-```bash
-yarn add react-picture-in-picture
-```
-
-## Usage
-
-```jsx
-import React, { useState } from 'react'
-
-import Reactpip from 'react-picture-in-picture'
-
-const ReactpipExemple = () =>{
-  const[active, setActive] = useState(false)
-  render () {
-    return (
-      <>
-        <Reactpip isActive= {active} >
-          <source src="https://cdn.arnellebalane.com/videos/original-video.mp4"/>
-        </Reactpip>
-        <button onClick = {() => setActive(!active)}>Toggle Picture in Picture</button>
-      </>
-    )
-  }
-}
-export default ReactpipExemple
-```
+### `02. npm start`
 
 ## Props
 
